@@ -6,11 +6,11 @@ const Footer = () =>
 
         <>
 
-         <footer className="bg-light text-center ">
+         {/* <footer className="bg-light text-center foot ">
         <p>
             CopyRight @ 2020 TechGroup. All Right Reserved | Terms and Conditions
         </p>  
-        </footer> 
+        </footer>  */}
         </>
     )
 }

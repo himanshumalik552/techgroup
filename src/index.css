@@ -136,3 +136,9 @@ color: #565387 !important;
 {
   margin-bottom : 100;
 }
+
+.foot{
+  position: absolute;
+  transform: translateY(500%);
+  text-align: center;
+}
