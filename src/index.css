@@ -95,41 +95,28 @@ color: #565387 !important;
   color: #fff ;
 }
 
-  .header-img
-  {
-    align-items: right;
-  }
+  
+/* ==============Section 1=========== */
 
-  .animated
+.Outer_play_div
   {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
   }
-
-  @-webkit-keyframes up-down
-  {
-    0% {
-      transform: translateY(10px);
-       }
-    100%
-    {
-    transform: translateY(-10px);  
-    }
+  .inner_play_div{
+    width:500px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    border-radius: 8px;
   }
-@keyframes up-down
-{
-  0% {
-    transform: translateY(10px);
-     }
-  100%
-  {
-  transform: translateY(-10px);  
+  .play_btn{
+    margin: auto;
   }
-}
-.card_img
-{
- width: auto;
-}
-
 /* ==============Contact us=========== */
 
 .form-group
