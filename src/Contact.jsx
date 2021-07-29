@@ -50,6 +50,7 @@ const Contact =() =>
     className="form-control" 
     id="exampleFormControlInput1" 
     name="email"
+    
     value={data.email}
     onChange={InputEvent}
     placeholder="Techgrouo@example.com"/>
